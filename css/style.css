@@ -1,0 +1,88 @@
+body {
+	font-family: sans-serif;
+	background-image: url(../img/old_map.png);
+}
+.countainer{
+	width: 1000px; /*buat lebar lebar*/ 
+	height: auto;  /*buat tinggi tinggi*/
+	margin: auto;  /*mengatur tempat konten kontenya*/
+	margin-top: -15px;
+}
+.navbar{
+	width: 1000px;
+	height: 65px;
+	background-color: #42f4ce;  /*warna dari backgroundnya*/
+}
+.navbar ul{
+	margin-left: 70px;
+}
+.navbar ul li{
+	display: inline; /*agar text berubah arah horizontal*/
+	line-height: 65px; /*text otomatis ketengah*/
+} 
+.navbar ul li a{
+	text-decoration: none; /*menghilangkan garis bawah pada text*/
+	color: #fff;
+	padding:0px 10px; 
+}
+.navbar ul li a:hover{  /*untuk menambahkan tampilan warna (background/text)*/
+	background-color: #eaff05;
+	color: #000;
+	padding: 10px;
+	border-radius: 30%; /*bentuk gelembung background*/
+
+}
+
+.header{
+	width: 1000px;
+	height: 300px;
+	background-image: url(../img/logoITclub.png);  /*mengubah background menjadi gambar*/
+	background-color: #000; /*warna backgroundnya*/
+	background-repeat: no-repeat; /*mennyesuaikan gambar dengan kontenya*/
+	background-position: center;   /*mengatur posisi background agar ketengah*/ 
+}
+
+.isi{
+	width: 1000px;
+	height: 550px;
+	background-color: #eee;
+	margin-top: -20px;
+}
+.isi img{
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	float:left;
+}
+.isi h1{
+	padding:10px;
+}
+.isi p{
+	padding: 0px 10px;
+	
+}
+.isi button{
+	width: 200px;
+	height: 40px;
+	margin-left: 391px;
+	border-radius: 40px;
+	background-color: #eaff05;
+	border: 1px solid #eaff05;
+	font-size: 20px;
+	cursor: pointer;
+}
+.isi button:hover{
+	background-color:  #c1c111;
+	border-color: #c1c111;
+}
+.footer{
+	width: 1000px;
+	height: 50px;
+	background-color: #000;
+}
+.footer p {
+	color: #bbb;
+	text-align: center;
+	line-height: 50px; 
+	margin-top: -10px
+}
